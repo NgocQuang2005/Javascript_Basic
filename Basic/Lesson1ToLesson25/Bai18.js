@@ -3,7 +3,7 @@ let valueb18_nb1 = document.getElementById("valueb18_nb1");
 let valueb18_nb2 = document.getElementById("valueb18_nb2");
 let resultb18 = document.getElementById("rsb18");
 function b18() {
-  if (!isNaN(valueb18_nb1.value) && !isNaN(valueb18_nb2.value)) {
+  if (!isNaN(valueb18_nb1.value, valueb18_nb2.value)) {
     if (
       (Number(valueb18_nb1.value) > 0 && Number(valueb18_nb2.value) < 0) ||
       (Number(valueb18_nb1.value) < 0 && Number(valueb18_nb2.value) > 0)

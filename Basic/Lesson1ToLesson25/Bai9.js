@@ -3,7 +3,7 @@ let a = document.getElementById("numbera");
 let b = document.getElementById("numberb");
 let results = document.getElementById("b9Result");
 function Multiply() {
-  if (!isNaN(a.value) && !isNaN(b.value)) {
+  if (!isNaN(a.value, b.value)) {
     let kq = Number(a.value) * Number(b.value);
     results.innerText = `Result: ${kq}`;
     a.value = "";
@@ -15,7 +15,7 @@ function Multiply() {
   }
 }
 function Divide() {
-  if (!isNaN(a.value) && !isNaN(b.value)) {
+  if (!isNaN(a.value, b.value)) {
     let kq = Number(a.value) / Number(b.value);
     results.innerText = `Result: ${kq}`;
     a.value = "";

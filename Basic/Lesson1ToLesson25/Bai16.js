@@ -3,7 +3,7 @@ let valueb16_nb1 = document.getElementById("valueb16_nb1");
 let valueb16_nb2 = document.getElementById("valueb16_nb2");
 let resultb16 = document.getElementById("rsb16");
 function b16() {
-  if (!isNaN(valueb16_nb1.value) && !isNaN(valueb16_nb2.value)) {
+  if (!isNaN(valueb16_nb1.value, valueb16_nb2.value)) {
     if (
       Number(valueb16_nb1.value) == 50 ||
       Number(valueb16_nb2.value) == 50 ||

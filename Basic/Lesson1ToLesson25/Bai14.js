@@ -5,7 +5,7 @@ let resultb14 = document.getElementById("rsb14");
 function b14() {
   let a = valueb14_nb1.value;
   let b = valueb14_nb2.value;
-  if (!isNaN(a) && !isNaN(b)) {
+  if (!isNaN(a, b)) {
     if (Number(a) == Number(b)) {
       resultb14.innerText = `Result: ${(Number(a) + Number(b)) * 3}`;
       valueb14_nb1.value = "";

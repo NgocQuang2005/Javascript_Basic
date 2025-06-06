@@ -10,10 +10,11 @@ function b79() {
     let b = nbb.split("");
     let kq = [];
     for (let i = 0; i < a.length; i++) {
-      for (let j = 0; j < b.length; j++) {
-        kq.push(a[i] + b[j]);
-      }
+      let sum = Number(a[i]) + Number(b[i]);
+      kq.push(sum);
     }
-    console.log(kq);
+    rsb79.innerText = `Result: ${Number(kq.join(""))}`;
+    numberb79a.value = "";
+    numberb79b.value = "";
   }
 }

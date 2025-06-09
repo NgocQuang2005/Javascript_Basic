@@ -15,6 +15,6 @@ function b108(number) {
     count++;
     gthua = gthua / 10;
   }
-  console.log(count);
+  rsb108.innerText = `Result: ${count}`;
 }
 b108(8);

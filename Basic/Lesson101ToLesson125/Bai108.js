@@ -5,5 +5,16 @@ function b108(number) {
     rsb108.innerText = "Giai thừa không hợp lệ";
     return;
   }
+  let gthua = 1;
+  while (number > 0) {
+    gthua *= number;
+    number--;
+  }
+  let count = 0;
+  while (gthua % 10 === 0 && gthua !== 0) {
+    count++;
+    gthua = gthua / 10;
+  }
+  console.log(count);
 }
 b108(8);
